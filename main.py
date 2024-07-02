@@ -7,7 +7,9 @@ import vosk
 
 TTS = pyttsx3.init()
 sr = speech_recognition.Recognizer()
+
 #comment
+
 
 def voice(text):
     TTS.say(text)
